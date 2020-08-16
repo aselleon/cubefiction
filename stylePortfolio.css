@@ -1,0 +1,227 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+background:  ghostwhite url(dd.gif);
+background-color: black;
+background-size:300%;
+ margin: 0px;
+ padding: 0px;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: black;
+}
+.innerHeader{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo_container h1{
+  color:white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 150;
+  letter-spacing: 5px;
+}
+.navigation{
+  float: right;
+  height: 100%;
+  margin: 30px 0px ;
+
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 25px;
+}
+.navigation a:last-child{
+  padding: 0;
+}
+.navigation a li{
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+  display: flex;
+  vertical-align: middle;
+  height: 100%;
+  color:white;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+a li:hover {
+  border-bottom-width: 1px;
+  border-radius: 25px;
+  color:hotpink;
+  background-color: black;
+  border-image: linear-gradient(to left,chartreuse,blue);
+  border-image-slice: 1;
+  box-shadow: blur;
+    box-shadow: 0px 0px 15px 5px darkblue;
+    background-blend-mode: hue;
+}
+span.currentPage{
+  border: 1px solid;
+  border-bottom-width: 1px;
+  border-radius: 25px;
+  color: blue;
+  background-color: blue;
+}
+span.currentPagePortfolio{
+  border: 1px solid;
+  border-bottom-width: 1px;
+  border-radius: 25px;
+  color: blue;
+  background-color: blue;
+}
+span.currentPageContacts{
+  border: 1px solid;
+  border-bottom-width: 1px;
+  border-radius: 25px;
+  color: blue;
+  background-color: blue;
+}
+.textHomepage{
+  border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 4px solid  ;
+    border-image: linear-gradient(to left,chartreuse,blue);
+    border-image-slice: 1;
+    width:100%;
+    height: 0px;
+    float:inherit;
+    margin-top: : 100px;
+    margin-bottom: 100px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: blur;
+      box-shadow: 2px 2px 25px 1px chartreuse ;
+      background-blend-mode: luminosity;
+}
+a:hover{
+color: black;
+}
+/* border-box*/
+.back1{
+  display: block;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-right:auto;
+  border-radius: 50%;
+  width: 25%;
+  height:25%;
+  padding: 40px;
+  border-image: linear-gradient(to left,chartreuse,blue);
+  border-image-slice: 1;
+  box-shadow: blur;
+    box-shadow: 0px 0px 15px 1px darkblue;
+    background-blend-mode: hue;
+
+}
+.back1border{
+  padding: 1px;
+  width: 25%;
+  height:25%;
+  border-radius: 10px;
+  border-image: linear-gradient(to left,chartreuse,blue);
+  border-image-slice: 1;
+  box-shadow: blur;
+    box-shadow: 0px 0px 15px 1px darkblue;
+    background-blend-mode: hue;
+}
+.box{
+  margin-top: : 100px;
+  margin-bottom: auto;
+  padding: 50px;
+  padding-bottom: 0px;
+  font-size: 180px;
+  color:ghostwhite;
+  font-weight: bold;
+  width: 100%;
+}
+.portfolioItalic{
+  line-height: 0.9em;
+  font-weight:normal;
+  font-style: italic;
+  letter-spacing: 5px;
+  padding: 100px;
+}
+.welcometext{
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 50px;
+  color:chartreuse;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 20%;
+  padding-top: 50%;
+  mergin-bottom:50%;
+  float: right;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  border-top: 2px solid  ;
+  border-image: linear-gradient(to left,chartreuse,blue);
+  border-image-slice: 1;
+  border-bottom: 2px solid;
+  padding: 10px;
+  margin-bottom: 50px;
+  }
+
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
